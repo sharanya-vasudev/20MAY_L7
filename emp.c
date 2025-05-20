@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+
     int x;
     int *pointer;
     pointer = &x;
@@ -9,6 +10,45 @@ int main() {
     printf("*pointer = %d\n", *pointer);
     printf("address of x = %p\n", &x);
     printf("address of pointer = %p\n", &pointer);
+
+    int prime = 0;
+    char choice;
+    do
+    {
+        printf("Enter a number: ");
+        int num;
+        scanf("%d", &num);
+        if (num == 2)
+        {
+            prime++;
+        }
+        else if (num % 2 == 0)
+        {
+            printf("Not a prime number\n");
+        }
+        else
+        {
+            int i;
+            for (i = 3; i < num; i += 2)
+            {
+                if (num % i == 0)
+                {
+                    printf("Not a prime number\n");
+                    break;
+                }
+            }
+            if (i == num)
+            {
+                prime++;
+            }
+        }
+        printf("Do you want to enter another number? (y/n): ");
+        scanf(" %c", &choice);
+    } while (choice == 'y' || choice == 'Y');   
+    printf("Prime numbers: %d\n", prime);
+    
+
+>>>>>>> b1
 
     return 0;
 }
