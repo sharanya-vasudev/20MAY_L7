@@ -12,7 +12,8 @@ int main() {
     printf("address of x = %p\n", &x);
     printf("address of pointer = %p\n", &pointer);
 
->>>>>>> b2
+>>>>>>>b2
+>>>>>>> b3
     int prime = 0;
     char choice;
     do
@@ -51,8 +52,11 @@ int main() {
     
 
 
+<<<<<<< HEAD
 >>>>>>> b1
 >>>>>>> b2
 
+=======
+>>>>>>> b3
     return 0;
 }
