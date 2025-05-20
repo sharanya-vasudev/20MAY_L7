@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-<<<<<<< HEAD
+
 
     int x;
     int *pointer;
