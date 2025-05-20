@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+<<<<<<< HEAD
 
     int x;
     int *pointer;
@@ -11,6 +12,7 @@ int main() {
     printf("address of x = %p\n", &x);
     printf("address of pointer = %p\n", &pointer);
 
+>>>>>>> b2
     int prime = 0;
     char choice;
     do
@@ -48,7 +50,9 @@ int main() {
     printf("Prime numbers: %d\n", prime);
     
 
+
 >>>>>>> b1
+>>>>>>> b2
 
     return 0;
 }
